@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome Flash Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay" onclick="startSite();">
+        <img src="./plugin.png" alt="Adobe Flash Player Plugin"><br>
+        Run HTML5
+    </div>
+    <div class="siteContent">
+        <h1>School Christmas</h1>
+        <ul>
+            <li onclick="showShelf(1);">Photos</li>
+            <li onclick="showShelf(2);">Wishes</li>
+            <li onclick="showShelf(3);">Carols</li>
+            <li onclick="showShelf(4);">About</li>
+        </ul>
+        <div class="mainPanel">
+            <!-- content will be injected here. -->
+        </div>
+    </div>
+    <audio src="./Christmas Village - Aaron Kenny.mp3" loop id="bgAudio"></audio>
+    <audio src="./131660__bertrof__game-sound-correct.wav" id="newAudio"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
